@@ -206,7 +206,7 @@ def paired_comparisons(clf_predictions, reg_predictions, y_class_test, y_reg_tes
     combined = reg_predictions[("Combined", "Ridge Regression")]
     for config in ("Structured-Only", "Text-Only"):
         other = reg_predictions[(config, "Ridge Regression")]
-        _, p_value = stats.ttest_rel(np.abs(y_class_test.to_numpy() * 0 + y_reg_test.to_numpy() - combined), np.abs(y_reg_test.to_numpy() - other))
+        _, p_value = stats.ttest_rel(np.abs(y_reg_test.to_numpy() - combined), np.abs(y_reg_test.to_numpy() - other))
         print(f"Ridge Combined vs {config}: paired absolute-error p={p_value:.4e}")
 
 
