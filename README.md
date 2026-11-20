@@ -1,9 +1,5 @@
 # Airline Passenger Satisfaction and Recommendation
 
-Group project for SDSC2005 Computational Social Science at City University of Hong Kong.
-
-## Project
-
 **Predictive Modeling of Passenger Satisfaction and Recommendation in the Airline Industry Based on Reviews**
 
 This project predicts whether a passenger recommends an airline and their overall rating by combining structured service ratings with review text. It compares structured-only, text-only, and combined feature configurations across classification and regression models.
@@ -16,7 +12,7 @@ This project predicts whether a passenger recommends an airline and their overal
 - Regression: Linear, Ridge, and Lasso Regression for `Overall_Rating`.
 - Evaluation: accuracy, precision, recall, F1, ROC-AUC, MAE, R², confusion matrices, residual analysis, feature importance, and paired significance tests.
 
-The portfolio version fits one-hot encoding, TF-IDF, and scaling on training data only, correcting the preprocessing-before-split leakage in the original Colab workflow.
+The repository version fits one-hot encoding, TF-IDF, and scaling on training data only, correcting the preprocessing-before-split leakage in the original workflow.
 
 ## Data
 
@@ -34,9 +30,5 @@ The script downloads the required NLTK resources on first run. Text preprocessin
 ## Documentation
 
 - `docs/project-summary.md`: research questions, methodology, findings, and limitations.
-- `docs/presentation-summary.md`: accessible summary of the group presentation.
+- `docs/presentation-summary.md`: accessible summary of the project presentation.
 - `src/airline_analysis.py`: cleaned, reproducible analysis pipeline.
-
-## Team
-
-Group 17: CLAUDIA Marchelyn, GUNAWAN Harrell Dave, and the other two members listed in the original course submission. Student identifiers and private Colab paths have been removed.

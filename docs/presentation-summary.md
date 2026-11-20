@@ -26,4 +26,4 @@ Classification used accuracy, precision, recall, F1-score, ROC-AUC, and confusio
 
 The presentation emphasised the complementary value of service ratings and review text, the strong performance of combined features, and the operational potential of identifying service dimensions associated with passenger advocacy and satisfaction.
 
-This is an accessible summary of the submitted slides; personal identifiers and private collaboration links have been removed.
+This is an accessible summary of the original slides; personal identifiers and private collaboration links have been removed.

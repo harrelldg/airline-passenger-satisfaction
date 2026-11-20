@@ -6,7 +6,7 @@ https://www.kaggle.com/datasets/juhibhojani/airline-reviews
 
 Save the main CSV as `data/airline_reviews.csv`, or pass another path with `--data`.
 
-The original group analysis used approximately 23,000 reviews with these key fields:
+The original analysis used approximately 23,000 reviews with these key fields:
 
 - Targets: `Recommended`, `Overall_Rating`.
 - Text: `Review_Title`, `Review`.

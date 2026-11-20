@@ -23,7 +23,7 @@ Three feature configurations were compared: structured-only, text-only, and comb
 
 ## Original conclusions
 
-The group found that service ratings and review text provide complementary signals. Combined features were the strongest overall configuration, XGBoost was the leading classification approach, and Ridge Regression was the leading rating model. Cabin staff service and value-related measures were important themes in the interpretation.
+The analysis found that service ratings and review text provide complementary signals. Combined features were the strongest overall configuration, XGBoost was the leading classification approach, and Ridge Regression was the leading rating model. Cabin staff service and value-related measures were important themes in the interpretation.
 
 ## Limitations
 
@@ -34,6 +34,6 @@ The group found that service ratings and review text provide complementary signa
 - Paired tests on one holdout split should be supplemented by repeated or nested cross-validation.
 - Association and prediction do not establish causal service effects.
 
-## Portfolio refinement
+## Repository refinement
 
 The cleaned pipeline splits records before fitting categorical encoding, TF-IDF, and scaling. This prevents information from the test set influencing feature construction. Local Colab paths, shell-only commands, student IDs, and stored notebook outputs were removed.
